@@ -1,4 +1,4 @@
-﻿---
+---
 layout:     post
 title:      pgAdmin 远程连接Postgresql时提示 'utf8'  codec can't decode byte 0xe9 in position 42  invalid continuation byte 
 subtitle:   
