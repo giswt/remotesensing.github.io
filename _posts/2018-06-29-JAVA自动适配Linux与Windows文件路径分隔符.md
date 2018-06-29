@@ -1,4 +1,4 @@
-﻿---
+---
 layout:     post
 title:      JAVA自动适配Linux与Windows文件路径分隔符
 subtitle:   
@@ -8,6 +8,7 @@ header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
     - Java
+    
 ---
 1、问题
     JAVA自动适配Linux与Windows文件路径分隔符
