@@ -14,5 +14,5 @@ tags:
 ### 解决方案 ###
 
   原因没有选择输出字段作为xml哪部分输出，需要指定输出的是 attribute 还是element.
- ![GF2](http://www.wangtuo.ac.cn/pic/kettlexmlerror.png)
+ ![GF2](http://www.spatial.pro/pic/kettlexmlerror.png)
  引自[CSDN,MichaelJY1991](https://blog.csdn.net/michaeljy1991/article/details/48521761)
