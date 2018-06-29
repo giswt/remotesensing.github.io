@@ -15,6 +15,7 @@ tags:
 
 1、问题
     Syntax error on token "import", Name expected after this token
+    
 2、解决方案
    查找是不是import 最后一项以逗号结尾，去掉逗号即可。
 
