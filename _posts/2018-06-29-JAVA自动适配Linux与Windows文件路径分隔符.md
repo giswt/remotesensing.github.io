@@ -38,5 +38,6 @@ tags:
 	String serverPath = request.getServletContext().getRealPath("/assets/data/templete/import/");
 	此种方法会自动适配文件分隔符获取到工程目录下的 assets/data/templete/import 文件夹，不必考虑分隔符文件路径
 	PS：默认情况下，直接写linux路径（/），tomcat运行在windows下是可以找到正确路径的；但是写windows路径（\）,在linux平台下不行。
-	摘自：[寄于念](https://blog.csdn.net/rimac/article/details/51836932) 
+	
+摘自：[寄于念](https://blog.csdn.net/rimac/article/details/51836932) 
 
