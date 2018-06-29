@@ -1,4 +1,4 @@
-﻿---
+---
 icon: fa-bug 
 layout:     post
 title:      RabbitMQ 安装及JSP运行 helloworld遇到的问题
