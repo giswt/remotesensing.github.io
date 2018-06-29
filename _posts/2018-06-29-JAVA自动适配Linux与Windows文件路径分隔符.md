@@ -12,6 +12,7 @@ tags:
 ---
 1、问题
     JAVA自动适配Linux与Windows文件路径分隔符
+    
 2、解决方案
    linux文件路径分隔符为 /  ，windows的文件路径分隔符为  \   ，在开发项目过程中不确定用户使用何种操作系统，就需要自动适配路径。
    目前已知java提供两种方法获取文件路径分割符：
@@ -31,6 +32,7 @@ tags:
 			return path.replace("\\", "/");  
 		}  
    }
+   
 3、其他说明
 	当然也可以使用request方法获取文件路径：
 	String serverPath = request.getServletContext().getRealPath("/assets/data/templete/import/");
