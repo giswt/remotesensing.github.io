@@ -60,13 +60,13 @@ kramdown:
 # disqus_username: giswt
 
 # Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: baaa458f521ce3977cb4                            #生成的clientID
-  clientSecret: 8fbdae5e33d80226be165835a4f5e772670aa70b    #生成的clientSecret
-  repo: giswt.github.io    #仓库名称
-  owner: giswt    #github用户名
-  admin: giswt
+#gitalk:
+  #enable: true    #是否开启Gitalk评论
+  #clientID: baaa458f521ce3977cb4                            #生成的clientID
+  #clientSecret: 8fbdae5e33d80226be165835a4f5e772670aa70b    #生成的clientSecret
+  #repo: giswt.github.io    #仓库名称
+  #owner: giswt    #github用户名
+  #admin: giswt
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
