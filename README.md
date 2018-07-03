@@ -6,7 +6,7 @@
 > 
 ### [引用的博客来自这里 &rarr;](http://qiubaiying.github.io)
 
-![](https://raw.githubusercontent.com/qiubaiying/qiubaiying.github.io/master/img/readme-home.png)
+
 
 
 ## 使用
