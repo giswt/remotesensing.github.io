@@ -52,6 +52,6 @@ tags:
 	
 	不报错，安装成功
 	
-摘自：[huifu1988的博客](https://blog.csdn.net/shuifu1988/article/details/77429234)  
+	摘自：[huifu1988的博客](https://blog.csdn.net/shuifu1988/article/details/77429234)  
 	  [Shomy的专栏](https://blog.csdn.net/shomy_liu/article/details/48543449)
 
