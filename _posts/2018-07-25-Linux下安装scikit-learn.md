@@ -8,8 +8,8 @@ header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
     - Linux
-	- 机器学习
-	- Python
+    - 机器学习
+    - Python
     - scikit-learn
 
 ---
