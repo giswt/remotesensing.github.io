@@ -37,7 +37,30 @@ K-MEANS算法是聚类分析中使用最广泛的算法之一。它把n个对象
 
 ### 算法比较 ###
 
-
+<table>
+  <thead>
+    <tr>
+      <th>head1 head1 head1</th>
+      <th align="left">head2 head2 head2</th>
+      <th align="center">head3 head3 head3</th>
+      <th align="right">head4 head4 head4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>row1text1</td>
+      <td align="left">row1text3</td>
+      <td align="center">row1text3</td>
+      <td align="right">row1text4</td>
+    </tr>
+    <tr>
+      <td>row2text1</td>
+      <td align="left">row2text3</td>
+      <td align="center">row2text3</td>
+      <td align="right">row2text4</td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### 代码 ### 
