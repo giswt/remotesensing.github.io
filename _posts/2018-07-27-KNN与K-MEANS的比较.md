@@ -40,25 +40,52 @@ K-MEANS算法是聚类分析中使用最广泛的算法之一。它把n个对象
 <table>
   <thead>
     <tr>
-      <th>head1 head1 head1</th>
-      <th align="left">head2 head2 head2</th>
-      <th align="center">head3 head3 head3</th>
-      <th align="right">head4 head4 head4</th>
+      <th>名称</th>
+      <th align="center">KNN</th>
+      <th align="center">K-Means</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>row1text1</td>
-      <td align="left">row1text3</td>
-      <td align="center">row1text3</td>
-      <td align="right">row1text4</td>
+      <td align="center">目的</td>
+      <td align="left">为了确定一个点的分类</td>
+      <td align="left">为了将一系列点集分成k类</td>
     </tr>
     <tr>
-      <td>row2text1</td>
-      <td align="left">row2text3</td>
-      <td align="center">row2text3</td>
-      <td align="right">row2text4</td>
+      <td align="center">算法类别</td>
+      <td align="left">分类算法</td>
+      <td align="left">聚类算法</td>
     </tr>
+    <tr>
+      <td align="center">分类方法</td>
+      <td align="left">监督学习，分类目标事先已知</td>
+      <td align="left">非监督学习，将相似数据归到一起从而得到分类，没有外部分类</td>
+    </tr>
+    <tr>
+      <td align="center">数据集特点</td>
+      <td align="left">训练数据集有label，已经是完全正确的数据</td>
+      <td align="left">训练数据集无label，是杂乱无章的，经过聚类后才变得有点顺序，先无序，后有序</td>
+    </tr>
+    <tr>
+      <td align="center">是否需要训练</td>
+      <td align="left">没有明显的前期训练过程，属于memory-based learning</td>
+      <td align="left">有明显的前期训练过程</td>
+    </tr>
+    <tr>
+      <td align="center">K值的意义</td>
+      <td align="left">“k”是用来计算的相邻数据数。来了一个样本x，要给它分类，即求出它的y，就从数据集中，在x附近找离它最近的K个数据点，这K个数据点，类别c占的个数最多，就把x的label设为c</td>
+      <td align="left">K的含义：“k”是类的数目。K是人工固定好的数字，假设数据集合可以分为K个簇，由于是依靠人工定好，需要一点先验知识</td>
+    </tr>
+    <tr>
+      <td align="center">K对结果的影响</td>
+      <td align="left">K值确定后每次结果固定</td>
+      <td align="left">K值确定后每次结果可能不同，从 n个数据对象任意选择 k 个对象作为初始聚类中心，随机性对结果影响较大</td>
+    </tr>
+    <tr>
+      <td align="center">时间复杂度</td>
+      <td align="left">O（n）</td>
+      <td align="left">O(n*k*t)，t为迭代次数</td>
+    </tr>    
   </tbody>
 </table>
 
