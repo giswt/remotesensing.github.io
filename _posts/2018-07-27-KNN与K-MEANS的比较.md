@@ -50,6 +50,7 @@ K-MEANS算法是聚类分析中使用最广泛的算法之一。它把n个对象
 ### 代码 ### 
 
 KNN 
+
 	from numpy import *
 	import operator
 
@@ -85,6 +86,7 @@ KNN
 	Out[3]: 'B'
 	
 K-MEANS
+
 	from numpy import *
 	import time
 	import matplotlib.pyplot as plt
