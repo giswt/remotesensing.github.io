@@ -8,8 +8,9 @@ header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
     - KNN
-	- K-MEANS
-	- 机器学习
+    - K-MEANS
+    - 机器学习
+    
 ---
 最近，打算将算法作为自己以后的方向，故读了一些算法方面的文献，弄清楚了KNN与K-MEANS的不同，写一篇博文以备待查。
 
