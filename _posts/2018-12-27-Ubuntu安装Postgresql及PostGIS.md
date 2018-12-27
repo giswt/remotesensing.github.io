@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      2018-12-27-Ubuntu安装Postgresql及PostGIS
+title:      Ubuntu安装Postgresql及PostGIS
 subtitle:   
 date:       2018-12-27
 author:     WT
@@ -22,10 +22,12 @@ tags:
 deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main
 ``` 
 4.在命令行下运行以下命令
+
 ```
 wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 sudo apt-get update
 ```
+
 5.安装postresql
 ```
 sudo apt install postgresql-10
