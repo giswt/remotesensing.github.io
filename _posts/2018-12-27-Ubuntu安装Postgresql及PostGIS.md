@@ -33,7 +33,9 @@ sudo apt-get update
 sudo apt install postgresql-10
 ```
 ### Postgis 安装
+
 1. 安装PostGIS
+
 ```
 sudo apt install postgresql-10-postgis-2.4 
 sudo apt install postgresql-10-postgis-scripts
@@ -41,6 +43,7 @@ sudo apt install postgresql-10-postgis-scripts
 #to get the commandline tools shp2pgsql, raster2pgsql you need to do this
 sudo apt install postgis
 ``` 
+
 2. 添加相关模块
 
 ```
@@ -58,6 +61,7 @@ SELECT postgis_full_version();
 ```
 
 3.修改用户名和密码
+
 ```
 sudo -u postgres psql
 alter user postgres with password '111111'
