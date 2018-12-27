@@ -40,14 +40,14 @@ sudo apt install postgresql-10
 sudo apt install postgresql-10-postgis-2.4 
 sudo apt install postgresql-10-postgis-scripts
 
-#to get the commandline tools shp2pgsql, raster2pgsql you need to do this
+to get the commandline tools shp2pgsql, raster2pgsql you need to do this
 sudo apt install postgis
 ``` 
 
 2. 添加相关模块
 
 ```
-# Install pgRouting 2.6 package 
+Install pgRouting 2.6 package 
 sudo apt install postgresql-10-pgrouting
 
 sudo -u postgres psql
