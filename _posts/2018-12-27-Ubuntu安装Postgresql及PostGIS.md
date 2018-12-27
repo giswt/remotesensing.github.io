@@ -8,7 +8,8 @@ header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
     - postgres
-	- postgis
+    - postgis
+    
 ---
 ### Postgresql 安装  
 1.选择Ubuntud的版本号 Xenial(16.04)
@@ -59,7 +60,7 @@ alter user postgres with password '111111'
 ```
 
 
-###其他资料
+### 其他资料
 ```
 #卸载软件及其配置文件
 apt-get --pure remove <package>
