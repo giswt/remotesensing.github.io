@@ -34,7 +34,7 @@ sudo apt install postgresql-10
 ```
 ### Postgis 安装
 
-1. 安装PostGIS
+1.安装PostGIS
 
 ```
 sudo apt install postgresql-10-postgis-2.4 
@@ -44,7 +44,7 @@ to get the commandline tools shp2pgsql, raster2pgsql you need to do this
 sudo apt install postgis
 ``` 
 
-2. 添加相关模块
+2.添加相关模块
 
 ```
 Install pgRouting 2.6 package 
