@@ -40,6 +40,7 @@ sudo apt install postgresql-10-postgis-scripts
 sudo apt install postgis
 ``` 
 2. 添加相关模块
+
 ```
 # Install pgRouting 2.6 package 
 sudo apt install postgresql-10-pgrouting
@@ -53,6 +54,7 @@ CREATE EXTENSION adminpack;
 CREATE EXTENSION postgis ;
 SELECT postgis_full_version();
 ```
+
 3.修改用户名和密码
 ```
 sudo -u postgres psql
@@ -61,11 +63,14 @@ alter user postgres with password '111111'
 
 
 ### 其他资料
+
 ```
+
 #卸载软件及其配置文件
 apt-get --pure remove <package>
 # 删除没用的依赖包
 apt-get autoremove <package
+
 ```
 
 
