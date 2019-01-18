@@ -141,7 +141,7 @@ sudo systemctl start flask //停止
 
 引用文献：[Nasser](https://www.jianshu.com/p/1c4d4f3ee52a)  
           [knarfeh](https://www.cnblogs.com/knarfeh/p/5616515.html) 
-          [Justin Ellingwood](https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-16-04) 
+		  [Justin Ellingwood](https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-16-04) 
 	  
   
   
