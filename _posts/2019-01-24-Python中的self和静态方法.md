@@ -84,7 +84,7 @@ print("result 9:")
 C.normalMethod2('explanation3')
 ```
 
-<center><img src="http://www.spatial.pro/img/I20191024python1.png"   /></center>
+<center><img src="http://www.spatial.pro/img/I20191024python2.png"   /></center>
 result 0 表明实例c的explanation属性被成功赋值
 result 1 表明 普通方法 normalMethod 能改变实例c的explanation属性
 result 2 表明 类C的explanation属性没有因为实例c对实例变量explanation的改变而改变
