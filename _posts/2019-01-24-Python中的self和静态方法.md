@@ -86,13 +86,21 @@ C.normalMethod2('explanation3')
 
 <center><img src="http://www.spatial.pro/img/I20191024python2.png"   /></center>
 result 0 表明实例c的explanation属性被成功赋值
+
 result 1 表明 普通方法 normalMethod 能改变实例c的explanation属性
+
 result 2 表明 类C的explanation属性没有因为实例c对实例变量explanation的改变而改变
+
 result 3 同上
+
 result 4 result 5 表明 类C和实例c都可以调用静态方法（静态方法不能调用类）
+
 result 6 表明 类C的变量可以通过类C调用类方法修改
+
 result 7 表明 类C的变量可以通过实例c调用类方法修改
+
 result 8 表明 实例c的explanation值不会因为cls的explanation改变而改变，是不同的变量
+
 result 9 表明 实例方法不能被类直接调用
 
 
