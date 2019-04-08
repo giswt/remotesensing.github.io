@@ -36,7 +36,8 @@ bo2 = false;
 alert("bo1 = "+bo1); //bo1 = true
 alert("bo2 = "+bo2);//bo2 = false
 ```
-基础类型的拷贝可以使用等号（=），并且修改任意一个，不会影响到另外的值；
+基础类型的拷贝可以使用等号（=），并且修改任意一个，不会影响到另外的值.
+
 ##复杂类型的复制
 1、对象类型
 ```
@@ -49,24 +50,27 @@ var person1 = {
     person2.name = "zhanglong";
     person2.age = 10;
 
-    alert("person1.name = "+person1.name +"...person1.age = "+person1.age);//person1.name = zhanglong...person1.age = 10
-    alert("person2.name = "+person2.name +"...person2.age = "+person2.age);//person1.name = zhanglong...person1.age = 10
+    alert("person1.name = "+person1.name +"...person1.age = "+person1.age);
+	//person1.name = zhanglong...person1.age = 10
+    alert("person2.name = "+person2.name +"...person2.age = "+person2.age);
+	//person1.name = zhanglong...person1.age = 10
 ```
 
+
 	而对于对象的深拷贝，没有内置方法可以使用，我们可以自己命名一个函数进行这一操作：
-	```
+```
 	var objDeepCopy = function(source){
 		var sourceCopy = {};
 		for (var item in source) sourceCopy[item] = source[item];
 		return sourceCopy;
 	}
-	```
+```
 	但是对于复杂结构的对象我们发现这个函数并不适用，例如：
 
 	var obj = { "a": { "a1": ["a11", "a12"], "a2": 1 }, "b": 2 };
 	所以需要进行一点修改：
 
-	```
+```
 	var objDeepCopy = function(source){
 		var sourceCopy = {};
 		for (var item in source) sourceCopy[item] = typeof source[item] === 'object' ? objDeepCopy(source[item]) : source[item];
@@ -76,7 +80,7 @@ var person1 = {
 	objCopy.a.a1[1] = "a13";
 	obj   // => { "a": { "a1": ["a11", "a12"], "a2": 1 }, "b": 2 }
 	objCopy   // => { "a": { "a1": ["a11", "a13"], "a2": 1 }, "b": 2 }
-	```
+```
 	
 	
 2、数组
@@ -87,6 +91,7 @@ arr2[0] = 88;
 alert("arr1[0] = "+arr1[0]);//arr1[0] = 88
 alert("arr2[0] = "+arr2[0]);//arr2[0] = 88
 ```
+
 
 对于数组的深拷贝常规的有三种方法：
 
