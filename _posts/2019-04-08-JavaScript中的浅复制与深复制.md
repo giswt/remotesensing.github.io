@@ -40,6 +40,7 @@ alert("bo2 = "+bo2);//bo2 = false
 
 ##复杂类型的复制
 1、对象类型
+
 ```
 var person1 = {
         name:"zhangyu",
@@ -54,6 +55,7 @@ var person1 = {
 	//person1.name = zhanglong...person1.age = 10
     alert("person2.name = "+person2.name +"...person2.age = "+person2.age);
 	//person1.name = zhanglong...person1.age = 10
+	
 ```
 
 
@@ -65,6 +67,7 @@ var person1 = {
 		for (var item in source) sourceCopy[item] = source[item];
 		return sourceCopy;
 	}
+	
 ```
 
 	但是对于复杂结构的对象我们发现这个函数并不适用，例如：
@@ -82,16 +85,19 @@ var person1 = {
 	objCopy.a.a1[1] = "a13";
 	obj   // => { "a": { "a1": ["a11", "a12"], "a2": 1 }, "b": 2 }
 	objCopy   // => { "a": { "a1": ["a11", "a13"], "a2": 1 }, "b": 2 }
+	
 ```
 	
 	
 2、数组
+
 ```
 var arr1 = [1,2,3,4,5,6];
 var arr2 = arr1;
 arr2[0] = 88;
 alert("arr1[0] = "+arr1[0]);//arr1[0] = 88
 alert("arr2[0] = "+arr2[0]);//arr2[0] = 88
+
 ```
 
 
@@ -99,24 +105,28 @@ alert("arr2[0] = "+arr2[0]);//arr2[0] = 88
 
 	方法一：遍历复制
 	
-	```
+```
+
 	var arr = ["a", "b"], arrCopy = [];
 	for (var item in arr) arrCopy[item] = arr[item];
 	arrCopy[1] = "c";
 	arr   // => ["a", "b"]
 	arrCopy   // => ["a", "c"]
-	```
+	
+```
 	
 	考虑伪多维数组可以写成函数形式：
 	
 
-	```
+```
+
 	function arrDeepCopy(source){
 		var sourceCopy = [];
 		for (var item in source) sourceCopy[item] = typeof source[item] === 'object' ? arrDeepCopy(source[item]) : source[item];
 		return sourceCopy;
 	}
-	```
+	
+```
 	
 	这种方法简单粗暴，但是利用JS本身的函数我们可以更加便捷地实现这个操作。
 
@@ -128,12 +138,13 @@ alert("arr2[0] = "+arr2[0]);//arr2[0] = 88
 	方法返回一个新的数组，包含从 start 到 end （不包括该元素）的 arrayObject 中的元素。该方法并不会修改数组，而是返回一个子数组。
 	在这里我们的思路是直接从数组开头截到尾：
 	
-	```
+```
 	arrCopy = arr.slice(0);
 	arrCopy[1] = "c";
 	arr   // => ["a", "b"] 
 	arrCopy   // => ["a", "c"]
-	```
+	
+```
 	
 	可以看出成功创建了一份原数组的拷贝。
 	
@@ -145,12 +156,13 @@ alert("arr2[0] = "+arr2[0]);//arr2[0] = 88
 	该方法不会改变现有的数组，而仅仅会返回被连接数组的一个副本。
 	使用这种方法的思路是我们用原数组去拼接一个空内容，放回的便是这个数组的拷贝：
 	
-	```
+```
 	arrCopy = arr.concat();
 	arrCopy[1] = "c";
 	arr   // => ["a", "b"] 
 	arrCopy   // => ["a", "c"]
-	```
+	
+```
 
 
 数组、对象、对象数组进行简单赋值运算只是创建了一份原内容的引用，指向的仍然是同一块内存区域，修改时会对应修改原内容
@@ -194,7 +206,7 @@ alert("arr2[0] = "+arr2[0]);//arr2[0] = 88
 	alert(b);  //[1,2]
 ```
 
-![Javascriptcopy](http://www.spatial.pro/img/Javascriptcopy.jpg)	
+![Javascriptcopy](http://www.spatial.pro/img/javascriptcopy.jpg)	
 
 
 
