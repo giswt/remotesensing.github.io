@@ -58,6 +58,7 @@ var person1 = {
 
 
 	而对于对象的深拷贝，没有内置方法可以使用，我们可以自己命名一个函数进行这一操作：
+	
 ```
 	var objDeepCopy = function(source){
 		var sourceCopy = {};
@@ -65,6 +66,7 @@ var person1 = {
 		return sourceCopy;
 	}
 ```
+
 	但是对于复杂结构的对象我们发现这个函数并不适用，例如：
 
 	var obj = { "a": { "a1": ["a11", "a12"], "a2": 1 }, "b": 2 };
@@ -96,6 +98,7 @@ alert("arr2[0] = "+arr2[0]);//arr2[0] = 88
 对于数组的深拷贝常规的有三种方法：
 
 	方法一：遍历复制
+	
 	```
 	var arr = ["a", "b"], arrCopy = [];
 	for (var item in arr) arrCopy[item] = arr[item];
@@ -103,7 +106,9 @@ alert("arr2[0] = "+arr2[0]);//arr2[0] = 88
 	arr   // => ["a", "b"]
 	arrCopy   // => ["a", "c"]
 	```
+	
 	考虑伪多维数组可以写成函数形式：
+	
 
 	```
 	function arrDeepCopy(source){
@@ -112,6 +117,7 @@ alert("arr2[0] = "+arr2[0]);//arr2[0] = 88
 		return sourceCopy;
 	}
 	```
+	
 	这种方法简单粗暴，但是利用JS本身的函数我们可以更加便捷地实现这个操作。
 
 	方法二：slice()
@@ -121,12 +127,14 @@ alert("arr2[0] = "+arr2[0]);//arr2[0] = 88
 	arrayObject.slice(start,end)
 	方法返回一个新的数组，包含从 start 到 end （不包括该元素）的 arrayObject 中的元素。该方法并不会修改数组，而是返回一个子数组。
 	在这里我们的思路是直接从数组开头截到尾：
+	
 	```
 	arrCopy = arr.slice(0);
 	arrCopy[1] = "c";
 	arr   // => ["a", "b"] 
 	arrCopy   // => ["a", "c"]
 	```
+	
 	可以看出成功创建了一份原数组的拷贝。
 	
 	方法三：concat()
@@ -136,12 +144,14 @@ alert("arr2[0] = "+arr2[0]);//arr2[0] = 88
 	arrayObject.concat(arrayX,arrayX,......,arrayX)
 	该方法不会改变现有的数组，而仅仅会返回被连接数组的一个副本。
 	使用这种方法的思路是我们用原数组去拼接一个空内容，放回的便是这个数组的拷贝：
+	
 	```
 	arrCopy = arr.concat();
 	arrCopy[1] = "c";
 	arr   // => ["a", "b"] 
 	arrCopy   // => ["a", "c"]
 	```
+
 
 数组、对象、对象数组进行简单赋值运算只是创建了一份原内容的引用，指向的仍然是同一块内存区域，修改时会对应修改原内容
 
@@ -167,10 +177,12 @@ alert("arr2[0] = "+arr2[0]);//arr2[0] = 88
 	obj   // => [{ "a": { "a1": ["a11", "a12"], "a2": 1 }, "b": 2 }, ["c", { "d": 4, "e": 5 }]]
 	objCopy   // => [{ "a": { "a1": ["a11", "a13"], "a2": 1 }, "b": 2 }, ["c", { "d": 4, "e": 6 }]]
 	```
+	
 	这样它就可以作为一个通用函数替我们进行深拷贝操作了
 	
 	
 需要注意下面的题，需要对JS数组有更深的了解
+```
 	var a = [1,2,3];
 	var b = a;
 	a = [4,5,6];
@@ -180,11 +192,14 @@ alert("arr2[0] = "+arr2[0]);//arr2[0] = 88
 	var b = a;
 	a.pop();
 	alert(b);  //[1,2]
+```
+
 ![Javascriptcopy](http://www.spatial.pro/img/Javascriptcopy.jpg)	
 
 
 
 3、函数类型
+
 ```
 var func1 = function () {
         alert("我是func1函数1！");
