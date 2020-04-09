@@ -17,7 +17,7 @@ tags:
 
 1. sudo apt-get install xinit
 
-2. sudo apt-get install lightdm
+2. sudo apt-get install lightdm  可以选择gdm3 但我认为不好用
 
 3. sudo apt-get install ubuntu-desktop
   
