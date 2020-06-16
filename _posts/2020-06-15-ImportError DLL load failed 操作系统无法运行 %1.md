@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      增加修改Ubuntu系统swap分区大小
+title:      ImportError: DLL load failed: 操作系统无法运行 %1
 subtitle:   
 date:       2020-06-09
 author:     WT
