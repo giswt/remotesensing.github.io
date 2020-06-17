@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      ImportError: DLL load failed: 操作系统无法运行
+title:      ImportError_DLL load failed_操作系统无法运行
 subtitle:   
 date:       2020-06-09
 author:     WT
