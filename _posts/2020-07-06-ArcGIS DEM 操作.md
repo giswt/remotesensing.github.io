@@ -42,9 +42,8 @@ FocalStatistics 在10.0以后的版本中替代了focalmean。 将"Tangshan2011.
 ### DEM数据中无数据点的插值处理 ###
 
 引用文献：[The Geo-ICT Blog](https://thegeoict.com/blog/2019/10/28/downloading-12-5-m-alos-palsar-high-resolution-dem/) 
-          [GIS前沿](https://mp.weixin.qq.com/s/CO-_blwzUXCpcgqlv-nnBA) 
-		  [Sotiris Valkaniotis](https://gis.stackexchange.com/questions/271053/alos-dem-shows-continious-no-data-how-to-over-come)
-
-          [小安](https://www.zhihu.com/question/30188487)  
-          [Jolin-King的博客](http://blog.sina.com.cn/s/blog_68b62bb50100vzyb.html)
-          [ESRI社区](https://community.esri.com/thread/9037) 		  
+         [GIS前沿](https://mp.weixin.qq.com/s/CO-_blwzUXCpcgqlv-nnBA) 
+         [Sotiris Valkaniotis](https://gis.stackexchange.com/questions/271053/alos-dem-shows-continious-no-data-how-to-over-come)
+         [小安](https://www.zhihu.com/question/30188487)  
+         [Jolin-King的博客](http://blog.sina.com.cn/s/blog_68b62bb50100vzyb.html)
+         [ESRI社区](https://community.esri.com/thread/9037) 		  
