@@ -8,9 +8,7 @@ header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
     - Postgresql
-	- PostGIS
-	
- 
+    - PostGIS
 ---
 ### 安装 Postgresql 10 ###
 ```
