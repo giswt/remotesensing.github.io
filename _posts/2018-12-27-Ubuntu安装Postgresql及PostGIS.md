@@ -7,8 +7,8 @@ author:     WT
 header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
-    - postgres
-    - postgis
+    - Postgresql
+    - PostGIS
     
 ---
 ### Postgresql 安装  

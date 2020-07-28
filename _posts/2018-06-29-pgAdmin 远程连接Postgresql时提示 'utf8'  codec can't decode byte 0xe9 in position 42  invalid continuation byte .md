@@ -7,7 +7,7 @@ author:     WT
 header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
-    - postgres
+    - Postgresql
   
 ---
 ### 解决方法 ###  

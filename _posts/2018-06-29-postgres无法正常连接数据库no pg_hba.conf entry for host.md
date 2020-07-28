@@ -7,7 +7,7 @@ author:     WT
 header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
-    - postgres
+    - Postgresql
 ---
 当程序链接PostgreSQL 时，可能会报错：No pg_hba.conf entry。
 
