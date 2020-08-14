@@ -18,6 +18,8 @@ tags:
 3. 右键数据，选择 Open RGB Image Window，选择RGB合适的波段
 4. 加载完毕后，右键图像，选择"Export View as Image",选择导出的区域(Image Region)、导出的分辨率(Image Resolution)和导出的数据格式,导出文件
 
+如果不需要裁剪，可以直接使用 Raster--data conversion---band select即可导出自己需要的波段
+
 it seems there are some issues with exporting S2 to GeoTiff. However, you can do the following.
 Open the product and create a subset (Raster/Subset…) which contains only the required bands (B2,B3,B4) and the area you are interested in. Afterwards open the RGB image. Now right-click on the image and select “Export View as Image” from the context menu.
 
