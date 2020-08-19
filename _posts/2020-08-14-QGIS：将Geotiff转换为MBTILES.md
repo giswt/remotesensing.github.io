@@ -20,7 +20,10 @@ tags:
 
 ![GF2](http://www.spatial.pro/img/QTiles.png)
 
+Qtiles 只能安装在2.x版本的QGIS中（本人实验成功），有人说3.0的可以通过Processing > Processing Toolbox > Raster tools > Generate YYZ Tiles生成MBTiles文件。
+
 引自[Youtube](https://www.youtube.com/watch?v=G_d8BN2pHLE)
+[QTiles replacement for QGIS3](https://gis.stackexchange.com/questions/353274/qtiles-replacement-for-qgis3)
 
 
 
