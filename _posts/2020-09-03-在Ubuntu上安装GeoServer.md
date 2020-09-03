@@ -11,7 +11,7 @@ tags:
     - GeoServer  
 ---
 
-  本文主要介绍在Ubuntu系统下安装GeoServer,并修改文件使其能够通过systemctl命令运行。
+  本文主要介绍在Ubuntu系统下安装GeoServer,并修改文件使其能够通过systemctl命令运行。    
   本文主要是对 [Hillson Ghimire](https://medium.com/@ghimirehillson/installing-geoserver-on-linux-ubuntu-18-04-mint-d5f54d70ff32)文章的翻译，但他的文章代码缺少了一部分，无法启动，根据[Github](https://gist.github.com/iacovlev-pavel/9006ba2f33cafc8d2ab71528f25f9f45)上的内容进行了补充。  
 步骤：  
 ### 1、更新升级ubuntu 
