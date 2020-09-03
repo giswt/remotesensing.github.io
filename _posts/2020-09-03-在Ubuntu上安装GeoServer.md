@@ -21,7 +21,7 @@ $ sudo apt-get upgrade
 ```
 ### 2、下载 GeoServer  
 推荐使用最新的 stable 版本 : http://geoserver.org/release/stable/
-，下载Platform Independent Binary 格式的文件到本地/Downloads/文件夹.
+，下载Platform Independent Binary 格式的文件到本地/Downloads/文件夹。
 ### 3、安装 Java Runtime Environment
 GeoServer 运行需要JRE环境，使用以下命令判断使用安装了Java：
 ```
@@ -55,7 +55,7 @@ $ ./startup.sh
 ```
 $ sudo vim /etc/init.d/geoserver
 ```
-<font color="#dd0000">如果上述文件中没有以下内容，需要添加</font><br />
+<font color="#dd0000">如果上述文件中没有以下内容，需要添加</font>
 ```
 SERVICE_NAME=geoserver
 GEOSERVER_HOME=/path/to/geoserver
