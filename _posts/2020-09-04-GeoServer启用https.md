@@ -47,7 +47,7 @@ java -jar start.jar --version
 ```
 也可以直接到lib目录（/usr/share/geoserver/lib）直接查看查看jetty版本号 
 #### 下载查看jetty完整版
-在maven目录https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/下找到对本的版本（本文是9.4.18.v20190429），下载zip版本，解压备用。
+在maven目录https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/ 下找到对本的版本（本文是9.4.18.v20190429），下载zip版本，解压备用。
 #### 替换文件
 使用下载的jetty的文件替换GeoServer中的文件
 替换usr/share/geoserver/etc下的jetty-http.xml、jetty-https.xml和jetty-ssl.xml文件，新增jetty-ssl-context.xml文件，在usr/share/geoserver/modules下新增ssl.mod，在modules下新建文件夹ssl，将keystore复制到该目录下。  
