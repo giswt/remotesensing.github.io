@@ -32,13 +32,13 @@ keytool -importkeystore -srckeystore keystore -destkeystore keystore -deststoret
 ```
 ### 替换keystore文件
 将生成的keystore文件替换Geoserver安装目录下的/usr/share/geoserver/etc和/usr/share/geoserver/modules/ssl目录下的keystore文件。
-在maven目录https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/ 下找到对本的版本（本文是9.4.18.v20190429），下载zip版本，解压备用。
+
 #### 重启Geoserver
 ```
 $ sudo systemctl stop geoserver
 $ sudo systemctl start geoserver
 ```
-使用https访问Geoserver，浏览器会出现小锁的标志
+使用https访问Geoserver，浏览器会出现小锁的标志，说明证书部署成功。
 ![https_ssl](http://www.spatial.pro/img/https_ssl.png)   
   
   
