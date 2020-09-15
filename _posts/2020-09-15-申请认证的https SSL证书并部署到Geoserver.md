@@ -17,7 +17,7 @@ tags:
 免费的SSL证书可以在[SSL For Free](https://www.sslforfree.com/)网站上申请，具体步骤可以百度或Google ，也可以参考[文献1](https://free.com.tw/ssl-for-free/)。  
 下载的压缩包包含三个文件private.key、certificate.和ca_bundle.crt。
 
-#### 合并转换SSL证书
+### 2、合并转换SSL证书
 首先，使用OPENSSL根据上面的三个文件生成PKCS12证书
 ```
 openssl pkcs12 -export -out j2vproject.pkcs12 -inkey private.key -in certificate.crt -certfile ca_bundle.crt
@@ -30,10 +30,10 @@ keytool -v -importkeystore -srckeystore j2vproject.pkcs12 -srcstoretype PKCS12  
 ```
 keytool -importkeystore -srckeystore keystore -destkeystore keystore -deststoretype pkcs12
 ```
-### 替换keystore文件
+### 3、替换keystore文件
 将生成的keystore文件替换Geoserver安装目录下的/usr/share/geoserver/etc和/usr/share/geoserver/modules/ssl目录下的keystore文件。
 
-#### 重启Geoserver
+### 4、重启Geoserver
 ```
 $ sudo systemctl stop geoserver
 $ sudo systemctl start geoserver
@@ -42,7 +42,7 @@ $ sudo systemctl start geoserver
 ![https_ssl](http://www.spatial.pro/img/https_ssl.png)   
   
   
-#### 引用  
+### 引用  
 [SSL For Free 免費 SSL 憑證申請，使用 Let’s Encrypt 最簡單方法教學！](https://free.com.tw/ssl-for-free/)  
 [Create java keystore from private key and CA certificate bundle](https://stackoverflow.com/questions/30900915/create-java-keystore-from-private-key-and-ca-certificate-bundle)  
 
