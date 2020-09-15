@@ -31,7 +31,7 @@ keytool -v -importkeystore -srckeystore j2vproject.pkcs12 -srcstoretype PKCS12  
 keytool -importkeystore -srckeystore keystore -destkeystore keystore -deststoretype pkcs12
 ```
 ### 3、替换keystore文件
-将生成的keystore文件替换Geoserver安装目录下的/usr/share/geoserver/etc和/usr/share/geoserver/modules/ssl目录下的keystore文件。
+将生成的keystore文件替换Geoserver安装目录/usr/share/geoserver/etc和/usr/share/geoserver/modules/ssl下的keystore文件。
 
 ### 4、重启Geoserver
 ```
