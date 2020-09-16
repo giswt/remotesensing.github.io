@@ -14,7 +14,7 @@ GeoServer 使用了Jetty作为Web服务器发布数据服务，本文主要讲�
 步骤  
 
 ###  1、修改文件web.xml  
-web.xml在webapps/geoserver/WEB-INF目录下，将涉及跨域的两部分注释去掉.
+web.xml在webapps/geoserver/WEB-INF目录下，将涉及跨域的两部分注释去掉。    
 第一部分：  
 ```
 <!-- Uncomment following filter to enable CORS -->
