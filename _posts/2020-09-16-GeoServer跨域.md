@@ -2,7 +2,7 @@
 layout:     post
 title:      GeoServer跨域
 subtitle:   
-date:       2020-09-04
+date:       2020-09-16
 author:     WT
 header-img: img/post-bg-universe.jpg
 catalog: true
@@ -24,7 +24,7 @@ web.xml在webapps/geoserver/WEB-INF目录下，将涉及跨域的两部分注释
   </filter>
   ......
 ```
-第二部分
+第二部分：
 ```
 <!-- Uncomment following filter to enable CORS -->
 <filter-mapping>
