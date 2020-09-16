@@ -11,7 +11,7 @@ tags:
 ---
 <font color="#dd0000">注意：本文GeoServer版本 2.17.2</font>  
 GeoServer 使用了Jetty作为Web服务器发布数据服务，本文主要讲述GeoServer版本 2.17.2版本的跨域设置。     
-步骤  
+步骤：  
 
 ###  1、修改文件web.xml  
 web.xml在webapps/geoserver/WEB-INF目录下，将涉及跨域的两部分注释去掉。    
