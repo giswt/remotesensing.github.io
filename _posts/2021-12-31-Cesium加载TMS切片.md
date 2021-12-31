@@ -148,7 +148,7 @@ TMS的切片有不同的变种。我们使用QGIS自带的GDAL2TILES生成TMS切
 ```
 
 加载后的效果图：  
-![Tiles2](http://www.spatial.pro/img/GCFD1_Cesium.png)  
+![Tiles2](http://www.spatial.pro/img/CFD1_Cesium.png)  
 
 
 ### 引用  
