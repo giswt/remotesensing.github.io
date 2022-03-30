@@ -10,7 +10,8 @@ tags:
     - Linux
 	- Centos7
 	- jar
-	- service
+	- service 
+
 ---
 
 1、在/etc/systemd/system路径下创建文件 javaservice.service
