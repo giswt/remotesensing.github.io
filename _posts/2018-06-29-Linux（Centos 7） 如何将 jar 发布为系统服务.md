@@ -6,12 +6,11 @@ date:       2018-6-29
 author:     WT
 header-img: img/post-bg-universe.jpg
 catalog: true
+
 tags:
     - Linux
-	- Centos7
-	- jar
-	- service 
-
+    - jar  
+    - service 
 ---
 
 1、在/etc/systemd/system路径下创建文件 javaservice.service
