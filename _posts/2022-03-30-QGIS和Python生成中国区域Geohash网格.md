@@ -19,7 +19,6 @@ tags:
 
 ### 2 安装Python库
 ![Tiles](http://www.spatial.pro/img/Installpolygeohasher.png) 
-Installpolygeohasher.png
 ### 3 按需求生成Geohash网格
 ```python
 from polygeohasher import polygeohasher
