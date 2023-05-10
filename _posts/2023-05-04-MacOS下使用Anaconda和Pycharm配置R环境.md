@@ -14,7 +14,7 @@ tags:
 ---
 
 ### 安装前提
-1、MacOS 10.15+(Intel) 
+1、MacOS 10.15+(Intel)   
 2、Anaconda  
 3、PyCharm 2022.3
 
