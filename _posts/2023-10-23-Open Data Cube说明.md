@@ -125,8 +125,10 @@ datacube 1.8.17.dev2+g0cfe300d.d20231027 requires jsonschema<4.18, but you have 
   Attempting uninstall: jsonschema
     Found existing installation: jsonschema 4.17.3
     Uninstalling jsonschema-4.17.3:
-      Successfully uninstalled jsonschema-4.17.3</font> 
-  
+      Successfully uninstalled jsonschema-4.17.3</font>     
+        
+   
+    
 <font color="#dd0000">ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
 jupyter-events 0.8.0 requires jsonschema[format-nongpl]>=4.18.0, but you have jsonschema 4.17.3 which is incompatible.
 jupyterlab-server 2.25.0 requires jsonschema>=4.18.0, but you have jsonschema 4.17.3 which is incompatible.</font>
