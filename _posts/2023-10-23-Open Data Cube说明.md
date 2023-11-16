@@ -149,6 +149,11 @@ pip uninstall traitlets
 pip install traitlets==5.9.0
 ```
 
+<font color="#dd0000">ModuleNotFoundError: No module named 'yaml'</font>  
+
+包名不是yaml 是pyyaml
+
+
 
 
 
@@ -167,4 +172,5 @@ pip install traitlets==5.9.0
 [pgAdmin 4 (APT) download](https://www.pgadmin.org/download/pgadmin-4-apt/)  
 [Jupyter notebook ](https://jupyter.org/install)  
 [Python 3.12 can't build wheels for aiohttp #7739](https://github.com/aio-libs/aiohttp/issues/7739)   
-[在anaconda启动jupyter notebook时出现ModuleNotFoundError: No module named ‘jupyter_server.contents‘报错](https://blog.csdn.net/xiaobin_23134/article/details/133499644)
+[在anaconda启动jupyter notebook时出现ModuleNotFoundError: No module named ‘jupyter_server.contents‘报错](https://blog.csdn.net/xiaobin_23134/article/details/133499644)  
+[ModuleNotFoundError: No module named 'yaml'](https://www.jianshu.com/p/193ab4f1a33c)
