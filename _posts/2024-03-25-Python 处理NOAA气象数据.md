@@ -14,7 +14,7 @@ tags:
 ---
 
 ### 问题
-将NOAA中国区域的气象数据下载下来存入PostgresSQL
+将NOAA中国区域的气象数据下载下来存入PostgreSQL
 
 ### 思路 
 根据[NOAA全球气象数据按天记录数据的网页](https://www.ncei.noaa.gov/data/global-summary-of-the-day/archive/)解析html,获得每个文件的文件名称，再加上url的前缀，组成下载链接，下载文件并解压缩。创建PostgreSQL数据表，并设置相关主键，将解压缩获得的csv文件中的中国站点数据插入到数据表中，并根据站点的经纬度数据反查所在的省市县。
