@@ -48,14 +48,16 @@ RClimDex 依赖的包有些很旧，已经被官方剔除，需要自己下载�
 > library(RClimDex)
 > rclimdex.start()
 ```
-![run1](http://www.spatial.pro/img/RClimDex.png)  
+![run1](http://www.spatial.pro/img/RClimDex.png)   
+
 
 引用文献：
-[0] [GITHUB RClimDex](https://github.com/ECCC-CDAS/RClimDex)
-    [RClimDex Manual](http://www.spatial.pro/files/manual.pdf)
-[1] [Rstudio环境下安装极端气候指数计算软件RClimDex](https://blog.csdn.net/m0_57847669/article/details/134364501)  
-[2] [Rstudio多个版本R语言环境进行选择](https://blog.csdn.net/faith_mo_blog/article/details/52192105)      
-[3] [R语言学习（1）——Windows系统下安装R及Rtools](https://blog.csdn.net/liukaiyue99/article/details/131470413)  
+[0] [GITHUB RClimDex](https://github.com/ECCC-CDAS/RClimDex)  
+
+[1] [RClimDex Manual](http://www.spatial.pro/files/manual.pdf)
+[2] [Rstudio环境下安装极端气候指数计算软件RClimDex](https://blog.csdn.net/m0_57847669/article/details/134364501)  
+[3] [Rstudio多个版本R语言环境进行选择](https://blog.csdn.net/faith_mo_blog/article/details/52192105)      
+[4] [R语言学习（1）——Windows系统下安装R及Rtools](https://blog.csdn.net/liukaiyue99/article/details/131470413)  
 
 
  
