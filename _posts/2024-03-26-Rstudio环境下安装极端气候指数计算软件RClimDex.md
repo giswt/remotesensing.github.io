@@ -2,7 +2,7 @@
 layout:     post
 title:      Rstudio环境下安装极端气候指数计算软件RClimDex
 subtitle:   
-date:       2024-03-25
+date:       2024-03-26
 author:     WT
 header-img: img/post-bg-universe.jpg
 catalog: true
@@ -51,13 +51,13 @@ RClimDex 依赖的包有些很旧，已经被官方剔除，需要自己下载�
 ![run1](http://www.spatial.pro/img/RClimDex.png)   
 
 
-引用文献：
-[0] [GITHUB RClimDex](https://github.com/ECCC-CDAS/RClimDex)  
+引用文献：  
 
-[1] [RClimDex Manual](http://www.spatial.pro/files/manual.pdf)
-[2] [Rstudio环境下安装极端气候指数计算软件RClimDex](https://blog.csdn.net/m0_57847669/article/details/134364501)  
-[3] [Rstudio多个版本R语言环境进行选择](https://blog.csdn.net/faith_mo_blog/article/details/52192105)      
-[4] [R语言学习（1）——Windows系统下安装R及Rtools](https://blog.csdn.net/liukaiyue99/article/details/131470413)  
+[1] [GITHUB RClimDex](https://github.com/ECCC-CDAS/RClimDex)  
+[2] [RClimDex Manual](http://www.spatial.pro/files/manual.pdf)  
+[3] [Rstudio环境下安装极端气候指数计算软件RClimDex](https://blog.csdn.net/m0_57847669/article/details/134364501)  
+[4] [Rstudio多个版本R语言环境进行选择](https://blog.csdn.net/faith_mo_blog/article/details/52192105)      
+[5] [R语言学习（1）——Windows系统下安装R及Rtools](https://blog.csdn.net/liukaiyue99/article/details/131470413)  
 
 
  
