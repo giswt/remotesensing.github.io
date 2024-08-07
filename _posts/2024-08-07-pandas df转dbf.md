@@ -22,7 +22,7 @@ simpledbf和dbfpy的包，都无法实现dbf的创建，最后使用了dbf包实
 ### 代码
 <font size=2 color=Red>运行环境：Python 3.6.13</font>    
 
-1、读取文件    
+  
 ```
 import pandas as pd
 import numpy as np
