@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      2024-08-07-pandas df转dbf
+title:      pandas df转dbf
 subtitle:   
 date:       2024-08-07
 author:     WT
