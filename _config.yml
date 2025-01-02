@@ -23,8 +23,8 @@ night_mode: "auto"
 logo-dark: "/assets/img/branding/MVM-logo-full-dark.svg"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
-# Author settings
-author:Tuo # add your name
+# Author settings  
+author: Tuo # add your name
 author-pic: myself.jpg
 about-author: 14年烟草农业信息化经验，服务商包括了云南、四川、贵州和河南等烟草公司.
 
