@@ -4,7 +4,7 @@ title:      大疆智图API完整调用Python版
 subtitle:   
 date:       2025-01-09
 author:     WT
-header-img: img/post-bg-universe.jpg
+header-img: img/DJI_0294.JPG
 catalog: true
 tags:
     - 大疆
