@@ -447,6 +447,7 @@ print("job_uuid:", job_uuid)
 
 将JOB UUID 与 Resource UUID建立关联，启动JOB进行运算
 ``` Python
+{% raw %}
 import hmac
 import hashlib
 import base64
@@ -523,6 +524,7 @@ print("请求头:", headers)
 print("请求 Body:", payload)
 print("响应状态码:", response.status_code)
 print("响应内容:", response.text)
+{% endraw %}
 ```
 
 ### 7 查询JOB状态
