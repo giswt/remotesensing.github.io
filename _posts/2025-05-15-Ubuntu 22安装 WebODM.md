@@ -56,8 +56,18 @@ sudo systemctl restart docker
 
 再次运动启动命令，运行成功后在浏览器中输入： http://localhost:8000
 
+
+关闭webdom
+```
+./webodm.sh stop
+```
+<font size=3 color=Red>CPU with more cores will allow for faster processing, while a graphics card (GPU) currently has no impact on performance.</font>
+
+
+
 ## 引用文献
-[Install on Ubuntu / Debian](https://docs.opendronemap.org/installation/#linux)   
+[Install on Ubuntu / Debian](https://docs.opendronemap.org/installation/#linux)  
+[Installation and Getting Started] (https://github.com/OpenDroneMap/docs/blob/publish/source/installation.rst)
 [Docker Compose 安装](https://zhuanlan.zhihu.com/p/27482200547)  
 [2025 Docker/DockerHub 国内镜像源/加速列表（6月1日更新-长期维护）](https://zhuanlan.zhihu.com/p/24461370776)  
 
