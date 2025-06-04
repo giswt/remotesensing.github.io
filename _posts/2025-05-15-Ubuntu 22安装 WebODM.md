@@ -84,8 +84,8 @@ watch -n 1 nvidia-smi
 
 ## 引用文献
 [Install on Ubuntu / Debian](https://docs.opendronemap.org/installation/#linux)  
-[Installation and Getting Started] (https://github.com/OpenDroneMap/docs/blob/publish/source/installation.rst)
-[Docker Compose 安装](https://zhuanlan.zhihu.com/p/27482200547)  
+[Installation and Getting Started](https://github.com/OpenDroneMap/docs/blob/publish/source/installation.rst)  
+[Docker Compose 安装](https://zhuanlan.zhihu.com/p/27482200547)    
 [2025 Docker/DockerHub 国内镜像源/加速列表（6月1日更新-长期维护）](https://zhuanlan.zhihu.com/p/24461370776)  
 [【工具篇】如何优雅地监控显卡(GPU)使用情况？](https://zhuanlan.zhihu.com/p/577533593)
 
