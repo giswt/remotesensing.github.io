@@ -63,6 +63,23 @@ sudo systemctl restart docker
 ```
 <font size=3 color=Red>CPU with more cores will allow for faster processing, while a graphics card (GPU) currently has no impact on performance.</font>
 
+虽然WebODM不能用GPU，但我们还是要知道Ubuntu下如何查看GPU的使用。
+直接在终端输入nvidia-smi可以得到显卡情况：
+```
+nvidia-smi
+```
+如果希望自动刷新这个命令，可以输入如下命令：
+```
+nvidia-smi -l
+```
+如上方式会显示历史信息和当前信息，如果只想看当前信息，则可以执行如下命令实现每1s刷新一次：
+```
+watch -n 1 nvidia-smi
+```
+还可以有其他工具，详见引用文献的最后一篇。
+
+
+
 
 
 ## 引用文献
@@ -70,6 +87,7 @@ sudo systemctl restart docker
 [Installation and Getting Started] (https://github.com/OpenDroneMap/docs/blob/publish/source/installation.rst)
 [Docker Compose 安装](https://zhuanlan.zhihu.com/p/27482200547)  
 [2025 Docker/DockerHub 国内镜像源/加速列表（6月1日更新-长期维护）](https://zhuanlan.zhihu.com/p/24461370776)  
+[【工具篇】如何优雅地监控显卡(GPU)使用情况？](https://zhuanlan.zhihu.com/p/577533593)
 
 
 
