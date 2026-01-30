@@ -11,13 +11,12 @@ tags:
     - OpenDroneMap
     - ubuntu          
 ---  
-
 ## 背景
 
 OpenDroneMap是一个开源的无人机拼接软件，ODM是命令行版本，WebODM是基于Web的界面版本，前者免费，后者可以自己手动安装，也可以购买官方的打包安装版本。
 本文选择在Ubuntu 22.04版本安装WebODM。
 
-### 1 Ubuntu上安装WebODM
+## 1 Ubuntu上安装WebODM
 在 [官网](https://docs.opendronemap.org/installation/#linux)有安装说明，按照安装说明小修即可实现WebODM的安装。  
 WebODM需要安装Docker、Git、Python (2 or 3)和Pip。
 ```

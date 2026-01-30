@@ -11,7 +11,6 @@ tags:
     - 大疆智图
     - Python          
 ---  
-
 ## 背景
 大疆智图API目前处于免费开放阶段，但[官网](https://developer.dji.com/doc/terra_api_tutorial/cn/quick-start.html)的快速入门文档的代码是Python和Shell脚本混合的，我尝试写了全PYthon版本，有利于后续开发过程中的集成。   
 <font size=2 color=Red>本文只涉及二维可见光重建。 </font>   
