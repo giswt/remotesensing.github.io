@@ -1,6 +1,6 @@
 # Site settings
-title: Spatial
-SEOTitle: 等高线 | Spatial
+title: Remote Sensing
+SEOTitle: 天空地一体化烟草智能感知
 header-img: img/space-bg8.jpg
 email: tuow1105@gmail.com
 description: "Test1"
@@ -12,7 +12,7 @@ github_repo: "https://github.com/giswt/remotesensing.github.io.git" # you code r
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "WT"
-sidebar-avatar: /img/myself1.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/wt.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
